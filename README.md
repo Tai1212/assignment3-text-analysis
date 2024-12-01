@@ -6,6 +6,15 @@
 * [Results](#results)
 * [Features](#features)
 
+## General Info
+The Hebrew Text Gender Classification Project explores the use of machine learning to classify gender (male or female) based on Hebrew text data. By addressing the unique challenges of working with a specialized language, the project showcases the development of a robust pipeline that combines data preprocessing, feature extraction, and advanced machine learning workflows to deliver accurate results.
+
+The project begins with raw Hebrew sentences stored in Excel, which are meticulously cleaned and tokenized to prepare for machine learning analysis. Preprocessing removes unnecessary symbols, characters, and noise, ensuring that the data focuses exclusively on the linguistic elements relevant to gender classification. A custom tokenizer was implemented to handle the nuances of Hebrew text, transforming the data into a structured format ready for feature extraction.
+
+For feature engineering, the project utilizes two prominent techniques: TF-IDF (Term Frequency-Inverse Document Frequency) and Count Vectorization. These methods convert the textual data into numerical representations, capturing the importance of words and phrases in the context of gender identification. The pipeline then leverages these features to train multiple machine learning models, including LinearSVC, MLPClassifier, and KNeighborsClassifier, each evaluated through cross-validation to ensure robust performance.
+
+This project illustrates the application of machine learning in a real-world scenario, focusing on natural language processing for Hebrew—a language that poses unique challenges due to its script and structure. By combining preprocessing, feature engineering, and model optimization, the Hebrew Text Gender Classification Project highlights a comprehensive approach to building specialized AI systems.
+
 ## Features
 1. Raw Data:
    * The dataset begins as an Excel file containing rows of sentences, each labeled with a corresponding gender ('m' for male or 'f' for female).
