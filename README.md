@@ -51,4 +51,5 @@ This project illustrates the application of machine learning in a real-world sce
   
 ## Results
 
-##
+### Hyperparameter Tuning Overview
+I performed hyperparameter tuning using GridSearchCV for multiple machine learning classifiers to identify the best configurations for each model. The following models were evaluated using F1-macro cross-validation scoring:
