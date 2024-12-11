@@ -67,3 +67,4 @@ I performed hyperparameter tuning using GridSearchCV for multiple machine learni
 
 The following are the first five and last five sample predictions on the test dataframe:
 
+![](docs/final_predictions.png)
