@@ -28,7 +28,7 @@ This project illustrates the application of machine learning in a real-world sce
     * Ensured that only valid gender labels ('m' for male and 'f' for female were present in the dataset. Invalid rows were discarded.
   * The following is the dataframe used to train the AI models:
       ![](docs/training_data_frame.png)
-  * The followinf is the dataframe used to test the AI models:
+  * The following is the dataframe used to test the AI models:
       ![](docs/testing_data_frame.png)
 3. Tokenization:
    * Utilized a Hebrew tokenizer to extract meaningful tokens (words) from the text.
