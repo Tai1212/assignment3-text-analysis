@@ -55,10 +55,15 @@ This project illustrates the application of machine learning in a real-world sce
 I performed hyperparameter tuning using GridSearchCV for multiple machine learning classifiers to identify the best configurations for each model. The following models were evaluated using F1-macro cross-validation scoring and presented the best results:
 
   * SGDClassifier with Count Vectorization:
-    ![]()
+    **F1 Macro Score**: 0.6983 
 
   * Perceptron with Count Vectorization:
-    ![]()
+    **F1 Macro Score**: 0.6744
 
   * LinearSVC with Count Vectorization:
-    ![]()
+    **F1 Macro Score**: 0.6657
+
+**The SGDClassifier with count vectorization performed the best out of all of the models due to its higher F1 Macro Score.**
+
+The following are the first five and last five sample predictions on the test dataframe:
+
