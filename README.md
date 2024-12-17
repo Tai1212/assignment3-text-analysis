@@ -2,9 +2,8 @@
 
 ## Table of Content
 * [General Info](#general-info)
-* [Architecture](#architecture)
-* [Results](#results)
 * [Features](#features)
+* [Results](#results)
 
 ## General Info
 The Hebrew Text Gender Classification Project explores the use of machine learning to classify gender (male or female) based on Hebrew text data. By addressing the unique challenges of working with a specialized language, the project showcases the development of a robust pipeline that combines data preprocessing, feature extraction, and advanced machine learning workflows to deliver accurate results.
